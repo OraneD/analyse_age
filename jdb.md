@@ -1,4 +1,4 @@
-## 1 - Conversion trs -> TextGrid
+### 1 - Conversion trs -> TextGrid
 
 - **Scripts** : le script shell [trans2praat.sh](/scripts/Conversion_trs2TextGrid/trans2praat.sh) permet de lancer le script Perl [trs_to_tg.pl](/scripts/Conversion_trs2TextGrid/trs_to_tg.pl) qui converti les fichiers TRS en TextGrid sur l'ensemble du corpus. La plupart des TextGrids obtenus s'ouvrent correctement sur praat mais pas tous. J'ai essayé de lancer d'autres scripts Perl sur le corpus, même problème. J'ai donc décidé de convertir l'ensemble des fichiers TRS avec SPPAS.
 
@@ -30,17 +30,29 @@ Liste des fichiers posant problème :
 - 82
 - 83
 
-## 2 - Extraction audio + TextGrid du tier du locuteur
+**J'ai reessayé d'ouvrir tous les TextGrids qui posaient problème quelques jours après la conversion, ils s'ouvraient tous. Sûrement un bug de praat donc.**
+
+### 2 - Extraction audio + TextGrid du tier du locuteur
 Je n'ai pas trouvé ni dans SPPAS, ni dans ELAN une façon d'extraire le tier souhaité du TextGrid et la partie audio correspondante. J'ai donc écrit un script praat pour le faire : [segmentation_tiers_interviewee.praat](/scripts/segmentation_praat/segmentation_tiers_interviewee.praat). 
 
 J'ai lancé le script sur deux des TextGrids obtenus avec ELAN. Il est malheureusement impossible de lancer le script sur l'ensemble du corpus car le tier à extraire n'a jamais le même nom ni le même numéro. 
 
 Le script ne récupère que le tier de la personne interrogée, il est donc censé ne récupérer que sa voix cependant parfois le chercheur parle en même temps que le locuteur ce qui compromet la qualité de l'enregistrement, faut-il supprimer ces intervalles ? 
 
-## 3 - Nettoyage des TextGrids
+### 3 - Nettoyage des TextGrids
 
 J'ai pour l'instant laissé cette étape de côté car je ne suis pas sûre des modifications à apporter aux TextGrids. J'ai parcouru les fichiers TRS, manuellement et avec des commandes shell, les annotations semblent assez uniformes sur l'ensemble du corpus.
 
-## 4 - Alignement
+### 4 - Alignement
 
 - **MFA** : J'ai lancé l'alignement sur les fichiers wav et TextGrid obtenus avec mon script praat. Tout semble avoir fonctionné correctement : certains mots ne sont pas transcrits, notamment ceux avec des -. 
+
+## 25/08
+
+### - Extraction audio + TextGrid du tier du locuteur
+
+Je n'avais pas pris en compte les cas de chevauchements lors de l'extraction du tiers du locuteur dans les TextGrid. Ils sont tous signalés dans les TextGrids, j'ai donc retravaillé le script qui permet d'extraire le tier et l'audio correspondant, les intervalles où il y a chevauchement sont maintenant indiqués. 
+
+Je devais lancer le script d'extraction pour chaque locuteur car je ne voyais pas comment récupérer les arguments du script spécifiques à chaque locuteur. J'ai fini par trouver une solution et un script batch permet de lancer le script praat d'extraction sur l'ensemble du corpus. 
+
+Seuls deux dossiers n'ont pas pu être traités : ESLO2_ENT_1069 et ESLO2_ENT_1081. Les transcriptions TRS pour ces deux locuteurs ne contiennent pas de tier "Turns" qui permet d'indiquer les tours de parole les chevauchements. 
