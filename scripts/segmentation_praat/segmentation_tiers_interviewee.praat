@@ -23,6 +23,7 @@ for i from 1 to nstrings
     Concatenate
 
     Save as WAV file: outputWavFile$
+    Remove
 
 
 new_grid = Create TextGrid: 0, 0.01, "Tier1", ""
@@ -65,7 +66,11 @@ endfor
 
     selectObject: "TextGrid chain"
     Save as text file: outputTextGridFile$
+    Remove
 endfor
+
+#procedure pour faire fonction. 
+#ouvrir la console c: praat.exe nomdescript + argument. si j'ai message d'erreur il s'affiche. 
 
 
 
