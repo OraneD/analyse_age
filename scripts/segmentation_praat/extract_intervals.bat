@@ -13,7 +13,7 @@ FOR /F "usebackq tokens=1,3 delims=," %%a IN ("%filename%") DO (
     ) ELSE (
         FOR /F "tokens=3 delims=_ " %%i IN ("%%a") DO SET "number=%%i"
         
-        IF !number! GEQ 1001 IF !number! LEQ 1001 (
+        IF !number! GEQ 1000 IF !number! LEQ 1000 (
             REM exclusion de certains dossiers
         ) ELSE (
             "C:\Program Files\Praat.exe" "D:\\Memoire\\analyse_age\\scripts\\segmentation_praat\\segmentation_interval.praat" "D:\\Memoire\\corpus_1_tier\\ESLO2_ENT_!number!\\"
