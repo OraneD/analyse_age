@@ -16,7 +16,7 @@ FOR /F "usebackq tokens=1,3 delims=," %%a IN ("%filename%") DO (
         IF !number! GEQ 1000 IF !number! LEQ 1000 (
             REM exclusion de certains dossiers
         ) ELSE (
-            "C:\Program Files\Praat.exe" "D:\\Memoire\\analyse_age\\scripts\\segmentation_praat\\segmentation_interval.praat" "D:\\Memoire\\corpus_1_tier\\ESLO2_ENT_!number!\\"
+            "C:\Program Files\Praat.exe" "D:\\Memoire\\analyse_age\\scripts\\segmentation_praat\\segmentation_interval.praat" "D:\\Memoire\\corpus_1_tier\\ESLO2_ENTJEUN_!number!\\"
         )
     )
 )
