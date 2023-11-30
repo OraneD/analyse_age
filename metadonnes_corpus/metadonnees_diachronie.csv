@@ -1,0 +1,15 @@
+directory,id_loc,age,sexe,niveau_etude,profession,categorie_professionnelle,time_loc
+ESLO2_DIA_1221,DJ39_DIA,vieux,homme,bac+5 et plus,retraite,retraites,00:43:02
+ESLO2_DIA_1222,QB100_DIA,vieux,femme,bac+5 et plus,cadre hospitalier,cadres et professions intellectuelles superieures,00:34:01
+ESLO2_DIA_1223,CF4_DIA,vieux,homme,CAP,retraite ouvrier,retraites,00:40:46
+ESLO2_DIA_1224,PY94_DIA,vieux,femme,CEP,retraite,retraites,00:27:56
+ESLO2_DIA_1225,RF211_DIA,vieux,homme,bac+5 et plus,professeur de physique,cadres et professions intellectuelles superieures,00:34:07
+ESLO2_DIA_1226,YR399_DIA,vieux,homme,CAP,retraite ouvrier,retraite,01:14:59
+ESLO2_DIA_1227,YT387_DIA,vieux,homme,CEP,retraite ouvrier,retraite,00:57:06
+ESLO1_ENT_003,DJ39,jeune,homme,bac+3,medecin,cadres et professions intellectuelles superieures,00:32:43
+ESLO1_ENT_017,QB100,jeune,femme,bac+2,auxliere de puericulture,professions intermediaires,00:46:00
+ESLO1_ENT_048,CF4,jeune,homme,CAP,ajusteur,ouvriers,00:21:14
+ESLO1_ENT_115,PY94,jeune,femme,CEP,gardienne d'immeuble,employes,00:25:59
+ESLO1_ENT_121,RF211,jeune,homme,bac+4,professeur,cadres et professions intellectuelles superieures,01:16:46
+ESLO1_ENT_149,YR399,jeune,homme,CAP,rectificateur,ouvriers,01:27:22
+ESLO1_ENT_150,YT387,jeune,homme,secondaire incomplet,contremaitre outilleur,ouvriers,00:24:39

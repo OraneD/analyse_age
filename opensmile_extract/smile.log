@@ -1,0 +1,32 @@
+[ 12.11.2023 - 14:04:37 ]
+    (MSG) [2] SMILEapi: openSMILE starting!
+[ 12.11.2023 - 14:04:37 ]
+    (MSG) [2] SMILEapi: config file is: /media/orane/MAXTOR/Memoire/Analyse/opensmile_extract/IS12_speaker_trait.conf
+[ 12.11.2023 - 14:04:37 ]
+    (MSG) [2] cComponentManager: successfully registered 97 component types.
+[ 12.11.2023 - 14:04:37 ]
+    (ERR) [0] commandlineParser: parse: unknown option '-bufferModeRbConf' on commandline!
+[ 12.11.2023 - 14:04:37 ]
+    (ERR) [0] commandlineParser: parse: unknown option '-frameModeFunctionalsConf' on commandline!
+[ 12.11.2023 - 14:04:37 ]
+    (WRN) [1] instance 'functionalsLLD.reader': Input level buffer sizes (levelconf.nT) are inconsistent. Level 'lldA_smo' has size 2 which is smaller than the max. input size of all input levels (100). This might cause the processing to hang unpredictably or cause incomplete processing.
+[ 12.11.2023 - 14:04:37 ]
+    (WRN) [1] instance 'functionalsLLD.reader': Input level buffer sizes (levelconf.nT) are inconsistent. Level 'lldB_smo' has size 2 which is smaller than the max. input size of all input levels (100). This might cause the processing to hang unpredictably or cause incomplete processing.
+[ 12.11.2023 - 14:04:37 ]
+    (WRN) [1] instance 'functionalsDelta.reader': Input level buffer sizes (levelconf.nT) are inconsistent. Level 'lldA_smo_de' has size 2 which is smaller than the max. input size of all input levels (100). This might cause the processing to hang unpredictably or cause incomplete processing.
+[ 12.11.2023 - 14:04:37 ]
+    (WRN) [1] instance 'functionalsDelta.reader': Input level buffer sizes (levelconf.nT) are inconsistent. Level 'lldB_smo_de' has size 2 which is smaller than the max. input size of all input levels (100). This might cause the processing to hang unpredictably or cause incomplete processing.
+[ 12.11.2023 - 14:04:37 ]
+    (WRN) [1] instance 'lldconcat.reader': Input level buffer sizes (levelconf.nT) are inconsistent. Level 'lldA_smo' has size 2 which is smaller than the max. input size of all input levels (100). This might cause the processing to hang unpredictably or cause incomplete processing.
+[ 12.11.2023 - 14:04:37 ]
+    (WRN) [1] instance 'lldconcat.reader': Input level buffer sizes (levelconf.nT) are inconsistent. Level 'lldB_smo' has size 2 which is smaller than the max. input size of all input levels (100). This might cause the processing to hang unpredictably or cause incomplete processing.
+[ 12.11.2023 - 14:04:37 ]
+    (WRN) [1] instance 'llddeconcat.reader': Input level buffer sizes (levelconf.nT) are inconsistent. Level 'lldA_smo_de' has size 2 which is smaller than the max. input size of all input levels (100). This might cause the processing to hang unpredictably or cause incomplete processing.
+[ 12.11.2023 - 14:04:37 ]
+    (WRN) [1] instance 'llddeconcat.reader': Input level buffer sizes (levelconf.nT) are inconsistent. Level 'lldB_smo_de' has size 2 which is smaller than the max. input size of all input levels (100). This might cause the processing to hang unpredictably or cause incomplete processing.
+[ 12.11.2023 - 14:04:37 ]
+    (MSG) [2] cComponentManager: successfully finished createInstances (43 component instances were finalised, 1 data memories were finalised)
+[ 12.11.2023 - 14:04:37 ]
+    (MSG) [2] cComponentManager: starting single thread processing loop
+[ 12.11.2023 - 14:04:37 ]
+    (MSG) [2] cComponentManager: Processing finished! System ran for 91 ticks.
