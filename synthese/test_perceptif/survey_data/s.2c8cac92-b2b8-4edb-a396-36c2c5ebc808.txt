@@ -1,0 +1,26 @@
+version: 3.4.4
+server-time: 2024-04-20-16-26
+client-time: 2024-03-20-16-26
+user_agent: mozilla/5.0 (iphone; cpu iphone os 17_4_1 like mac os x) applewebkit/605.1.15 (khtml, like gecko) version/17.4.1 mobile/15e148 snapchat/12.82.0.49 (like safari/8618.1.15.10.15, panda)
+screen_width: 390
+screen_height: 844
+html_width: 390
+html_height: 1393
+user_time: 2024-03-20-16-26
+T: 0
+l: genre
+stime: 2024-04-20-16-26
+T: 4583
+t: radio
+a: 2
+l: age
+stime: 2024-04-20-16-26
+T: 5319
+t: range
+a: 19
+s: 19
+l: langueMaternelle
+stime: 2024-04-20-16-26
+T: 2579
+t: radio
+a: 1

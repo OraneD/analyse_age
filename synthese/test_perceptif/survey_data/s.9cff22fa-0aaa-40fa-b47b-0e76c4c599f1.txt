@@ -1,0 +1,26 @@
+version: 3.4.4
+server-time: 2024-04-22-23-05
+client-time: 2024-03-22-23-05
+user_agent: mozilla/5.0 (iphone; cpu iphone os 17_4_1 like mac os x) applewebkit/605.1.15 (khtml, like gecko) mobile/21e236 [fban/fbios;fbav/460.0.0.31.103;fbbv/588708950;fbdv/iphone15,2;fbmd/iphone;fbsn/ios;fbsv/17.4.1;fbss/3;fbid/phone;fblc/fr_fr;fbop/5;fbrv/590932550]
+screen_width: 393
+screen_height: 852
+html_width: 393
+html_height: 1447
+user_time: 2024-03-22-23-05
+T: 0
+l: genre
+stime: 2024-04-22-23-05
+T: 4443
+t: radio
+a: 2
+l: age
+stime: 2024-04-22-23-05
+T: 4163
+t: range
+a: 21
+s: 21
+l: langueMaternelle
+stime: 2024-04-22-23-05
+T: 1495
+t: radio
+a: 1

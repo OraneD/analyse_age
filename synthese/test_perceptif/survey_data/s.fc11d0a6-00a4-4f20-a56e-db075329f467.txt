@@ -1,0 +1,10 @@
+version: 3.4.4
+server-time: 2024-04-22-16-04
+client-time: 2024-03-22-16-04
+user_agent: mozilla/5.0 (windows nt 10.0; win64; x64; rv:125.0) gecko/20100101 firefox/125.0
+screen_width: 1920
+screen_height: 1080
+html_width: 1920
+html_height: 850
+user_time: 2024-03-22-16-04
+T: 0

@@ -1,0 +1,44 @@
+version: 3.4.4
+server-time: 2024-04-19-20-36
+client-time: 2024-03-19-20-36
+user_agent: mozilla/5.0 (iphone; cpu iphone os 17_3_1 like mac os x) applewebkit/605.1.15 (khtml, like gecko) version/17.3.1 mobile/15e148 safari/604.1
+screen_width: 414
+screen_height: 896
+html_width: 414
+html_height: 1353
+user_time: 2024-03-19-20-36
+T: 0
+l: genre
+stime: 2024-04-19-20-37
+T: 14709
+t: radio
+a: 1
+l: age
+stime: 2024-04-19-20-37
+T: 6959
+t: range
+a: 20
+s: 20
+l: langueMaternelle
+stime: 2024-04-19-20-37
+T: 2639
+t: radio
+a: 1
+l: expertiseL
+stime: 2024-04-19-20-37
+T: 9498
+t: range
+a: 3
+s: 3
+l: expe
+stime: 2024-04-19-20-42
+T: 279755
+t: experiment
+endcode: 
+end 2024-04-19-20-42
+l: expe
+stime: 2024-04-21-01-32
+T: 279755
+t: experiment
+endcode: 
+end 2024-04-21-01-32

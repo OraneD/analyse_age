@@ -1,0 +1,15 @@
+version: 3.4.4
+server-time: 2024-04-19-15-10
+client-time: 2024-03-19-15-10
+user_agent: mozilla/5.0 (linux; android 10; ele-l29 build/huaweiele-l29; wv) applewebkit/537.36 (khtml, like gecko) version/4.0 chrome/123.0.6312.118 mobile safari/537.36 snapchat/12.78.0.43 (ele-l29; android 10#10.1.0.150c431#29; gzip; panda; )
+screen_width: 360
+screen_height: 780
+html_width: 360
+html_height: 1508
+user_time: 2024-03-19-15-10
+T: 0
+l: genre
+stime: 2024-04-19-15-10
+T: 2114
+t: radio
+a: 2

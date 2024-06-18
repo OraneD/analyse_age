@@ -1,0 +1,26 @@
+version: 3.4.4
+server-time: 2024-04-19-14-23
+client-time: 2024-03-19-14-23
+user_agent: mozilla/5.0 (linux; android 12; 2201117ty build/skq1.211103.001; wv) applewebkit/537.36 (khtml, like gecko) version/4.0 chrome/123.0.6312.96 mobile safari/537.36 instagram 326.0.0.42.90 android (31/12; 440dpi; 1080x2177; xiaomi/redmi; 2201117ty; spesn; qcom; fr_fr; 586181559)
+screen_width: 393
+screen_height: 873
+html_width: 393
+html_height: 1342
+user_time: 2024-03-19-14-23
+T: 0
+l: genre
+stime: 2024-04-19-14-23
+T: 2299
+t: radio
+a: 1
+l: age
+stime: 2024-04-19-14-23
+T: 3395
+t: range
+a: 21
+s: 21
+l: langueMaternelle
+stime: 2024-04-19-14-24
+T: 1975
+t: radio
+a: 1

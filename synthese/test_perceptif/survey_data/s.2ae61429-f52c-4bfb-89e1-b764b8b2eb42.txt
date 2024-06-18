@@ -1,0 +1,21 @@
+version: 3.4.4
+server-time: 2024-04-18-19-02
+client-time: 2024-03-18-19-02
+user_agent: mozilla/5.0 (iphone; cpu iphone os 17_3_1 like mac os x) applewebkit/605.1.15 (khtml, like gecko) version/17.3.1 mobile/15e148 safari/604.1
+screen_width: 430
+screen_height: 932
+html_width: 430
+html_height: 1313
+user_time: 2024-03-18-19-02
+T: 0
+l: genre
+stime: 2024-04-18-19-02
+T: 7306
+t: radio
+a: 1
+l: age
+stime: 2024-04-18-19-03
+T: 11684
+t: range
+a: 22
+s: 22
