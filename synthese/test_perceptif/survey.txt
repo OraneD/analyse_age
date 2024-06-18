@@ -1,0 +1,39 @@
+# l = nom de la question dans les fichiers de résultats
+#     (sans espaces, il ne peut pas y avoir plusieurs questions avec le même nom)
+# t = type de question
+# o: require = indique qu'il s'agit d'une question obligatoire
+#     (retirer cette ligne pour en faire une question optionnelle
+# q = intitulé de la question et options de réponse éventuelles
+
+# on peut supprimer une partie des questions ou en ajouter sur le même modèle
+
+l: genre
+t: radio
+o: require
+q: Vous êtes
+- Un homme
+- Une femme
+- Autre ou préfère ne pas répondre
+
+l: age
+t: range
+o: require
+q: Quel âge avez-vous ?
+- {min=18,max=99}
+
+l: langueMaternelle
+t: radio
+o: require
+q: Quelle est votre langue maternelle ?
+- Français
+- {other,size=50} Autre langue. Merci de préciser.
+
+l: expertiseL
+t: range
+o: require
+q: Quel est votre degré d'expertise en linguistique ?
+- {min=1,max=7,left=Aucune connaissance dans ce domaine,right=Pratique professionnelle}
+
+l: expe
+t: experiment
+- perception_age
